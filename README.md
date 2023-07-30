@@ -2,7 +2,7 @@
 
 Introduction
 
-Welcome to the Product Management App! This is a simple Python application built using the PyQt5 library for the graphical user interface and SQLite3 for the database management. The app is designed to help users manage their products by providing an intuitive and user-friendly interface to add, view, update, and delete product information.
+This is a simple Python application built using the PyQt5 library for the graphical user interface and SQLite3 for the database management. The app is designed to help users manage their products by providing an intuitive and user-friendly interface to add, view, update, and delete product information.
 
 Features
 
