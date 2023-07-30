@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1116</width>
+    <height>857</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>1070</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QLabel" name="BACKGROUND">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1065</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>login background.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LOGIN_BACKGROUND">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>491</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+border-radius:20;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>20</y>
+        <width>491</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+border-radius:20;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>30</y>
+        <width>351</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+background-color: rgb(47, 60, 126);
+text-decoration: underline;
+font: 20pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>LOGIN TO ACCOUNT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>180</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+background-color: rgb(47, 60, 126);
+border: NONE;
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>USERNAME</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>310</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+background-color: rgb(47, 60, 126);
+border: NONE;
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>PASSWORD</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LOGIN">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>430</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+background-color: rgb(47, 60, 126);
+border: NONE;
+font: 75 14pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>LOGIN</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="FORGET_PASSWORD">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>490</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+background-color: rgb(47, 60, 126);
+border: NONE;
+font: 75 14pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>FORGET PASSWORD</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LOGIN_ALERT">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>271</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(47, 60, 126);
+border: NONE;
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>631</x>
+        <y>30</y>
+        <width>351</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+text-decoration: underline;
+font: 16pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>NEW USER. REGISTER !!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>170</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+font: 12pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>NAME :- </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>350</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+font: 12pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>PASSWORD :- </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>290</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+font: 12pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>MOBILE NO. :- </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>230</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+font: 12pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>E-MAIL :- </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>410</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+font: 12pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>CONFIRM PASSWORD :- </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="REGISTER_BUTTON">
+      <property name="geometry">
+       <rect>
+        <x>737</x>
+        <y>510</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+background-color: rgb(251, 234, 235);
+font: 12pt &quot;Palatino Linotype&quot;;
+border: NONE;</string>
+      </property>
+      <property name="text">
+       <string>SUBMIT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="REGISTER_INFO">
+      <property name="geometry">
+       <rect>
+        <x>645</x>
+        <y>90</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);
+border: NONE;
+background-color: rgb(251, 234, 235);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="USERNAME">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>230</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+border: NONE;
+background-color: rgb(251, 234, 235);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LOGIN_PASSWORD">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>360</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(47, 60, 126);
+border: NONE;
+background-color: rgb(251, 234, 235);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="NAME">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>170</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+border: NONE;
+background-color: rgb(47, 60, 126);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="E_MAIL">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>230</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+border: NONE;
+background-color: rgb(47, 60, 126);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhEmailCharactersOnly</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MOBILE_NUMBER">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>290</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+border: NONE;
+background-color: rgb(47, 60, 126);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="REGISTER_PASSWORD">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>350</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+border: NONE;
+background-color: rgb(47, 60, 126);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="CONFIRM_PASSWORD">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>410</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(251, 234, 235);
+border: NONE;
+background-color: rgb(47, 60, 126);
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QLabel" name="BACKGROUND_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1065</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ADD_PRODUCT">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>270</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 17pt &quot;Palatino Linotype&quot;;
+border-radius:30;</string>
+      </property>
+      <property name="text">
+       <string>ADD</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ORDER_PRODUCT">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>270</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 17pt &quot;Palatino Linotype&quot;;
+border-radius:30;</string>
+      </property>
+      <property name="text">
+       <string>ORDER</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DELETE_PRODUCT">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>270</y>
+        <width>241</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 17pt &quot;Palatino Linotype&quot;;
+border-radius:30;</string>
+      </property>
+      <property name="text">
+       <string>DELETE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>390</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 8pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string> TO ADD A NEW PRODUCT DETAIL</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>390</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 8pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string> TO REMOVE THE EXISTING PRODUCT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>390</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 8pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string> TO PLACE AN ORDER </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LOGOUT">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>30</y>
+        <width>81</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>LOGOUT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_50">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>30</y>
+        <width>351</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(215, 216, 255);
+font: 75 17pt &quot;Palatino Linotype&quot;;
+border-radius:30;</string>
+      </property>
+      <property name="text">
+       <string> SELECT THE OPERATION</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="INFORMATION">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>140</y>
+        <width>251</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+color: rgb(255, 255, 255);
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="TAB_3">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QLabel" name="BACKGROUND_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1065</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>811</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 14pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>   TO ADD THE NEW PRODUCT IN THE LIST, PLEASE PROVIDE DETAILS</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>160</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string> PRODUCT NAME</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>240</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>   BRAND NAME</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>160</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>      CATEGORY</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>240</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>   PRICE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>240</y>
+        <width>61</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>   SKU</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>340</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>              USE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>420</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>    DISCRIPTION</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ADD">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>510</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>ADD </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ADD_INFO">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(255, 170, 0);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:15;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BACK_1">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>30</y>
+        <width>61</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PRODUCT_NAME">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="BRAND_NAME">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>240</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PRODUCT_SKU">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>240</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PRODUCT_PRICE">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>240</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PRODUCT_USE">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>340</y>
+        <width>731</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PRODUCT_DESCRIPTION">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>420</y>
+        <width>731</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PRODUCT_CATEGORY">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>160</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QLabel" name="BACKGROUND_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1065</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>20</y>
+        <width>671</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 14pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>  SELECT PRODUCT TO REMOVE/DELETE FOR THE SYSTEM</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>150</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:20;</string>
+      </property>
+      <property name="text">
+       <string>      PRODUCT NAME</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>150</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:20;</string>
+      </property>
+      <property name="text">
+       <string>        SELECT BRAND</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>340</y>
+        <width>381</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:20;</string>
+      </property>
+      <property name="text">
+       <string>  WHY YOU ARE DELETING THIS PRODUCT ?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DELETE">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>510</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string> DELETE </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DELETE_INFO">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>80</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(255, 170, 0);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:15;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BACK_2">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>30</y>
+        <width>61</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DELETE_REASON">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>410</y>
+        <width>821</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DELETE_PRODUCT_NAME">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>220</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:20;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DELETE_BRAND">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>220</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:20;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QLabel" name="BACKGROUND_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1065</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>20</y>
+        <width>481</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 14pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>  SELECT PRODUCT TO PLACE AN ORDER</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+      </property>
+      <property name="text">
+       <string> SELECT PRODUCT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>90</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>   SELECT BRAND</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>90</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string> QUANTITY</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>1041</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+border:none;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QTableWidget" name="PRODUCT_TABLE">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>1041</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(251, 234, 235);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+color: rgb(47, 60, 126);
+gridline-color: rgb(47, 60, 126);</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1041</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>910</x>
+          <y>5</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>TOTAL PRICE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>5</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>QUANTITY</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>395</x>
+          <y>5</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>CATEGORY</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>5</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>PRODUCT PRICE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>5</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>BRAND NAME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>5</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>PRODUCT NAME</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="ADD_TO_CART">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>90</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>ADD TO CART</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PLACE_ORDER">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>530</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="text">
+       <string>PLACE ORDER</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>540</y>
+        <width>55</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+      </property>
+      <property name="text">
+       <string>  TAX</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TAX">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>540</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:3;
+</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>540</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+      </property>
+      <property name="text">
+       <string> GRAND TOTAL</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GRAND_TOTAL">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>540</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 14pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:3;
+</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BACK_3">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>30</y>
+        <width>61</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ORDER_PRODUCT_NAME">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>90</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ORDER_BRAND">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>90</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="QUANTITY">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>90</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>IBeamCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 12pt &quot;Palatino Linotype&quot;;
+border-radius:10;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DATE_3">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>540</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:3;
+</string>
+      </property>
+      <property name="text">
+       <string>ORDER ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ORDER_ID_2">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>540</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:3;
+</string>
+      </property>
+      <property name="text">
+       <string>1234</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QLabel" name="BACKGROUND_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1065</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="PRINTAREA">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>361</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 234, 235);
+border:none;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>341</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(46, 59, 125);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>19</x>
+          <y>5</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>NAME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>5</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>QUANTITY</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>5</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>   PRICE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>40</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+        </property>
+        <property name="text">
+         <string>PRODUCT NAME</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QTableWidget" name="INVOICE">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>331</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(251, 234, 235);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_44">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>527</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+</string>
+       </property>
+       <property name="text">
+        <string>  NET PAYABLE</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="GRAND_TOTAL_2">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>527</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 14pt &quot;Palatino Linotype&quot;;
+border-radius:10;
+padding-right:3;
+
+</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(47, 60, 126);
+font: 8pt &quot;Palatino Linotype&quot;;</string>
+       </property>
+       <property name="text">
+        <string>DATE :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>490</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(47, 60, 126);
+font: 8pt &quot;Palatino Linotype&quot;;</string>
+       </property>
+       <property name="text">
+        <string>TIME :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="TIME">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>490</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(47, 60, 126);
+font: 8pt &quot;Palatino Linotype&quot;;</string>
+       </property>
+       <property name="text">
+        <string>4:48 PM</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="DATE">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>470</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(47, 60, 126);
+font: 8pt &quot;Palatino Linotype&quot;;</string>
+       </property>
+       <property name="text">
+        <string>24/7/2023</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="DATE_2">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>470</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(47, 60, 126);
+font: 8pt &quot;Palatino Linotype&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ORDER ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ORDER_ID">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>490</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(47, 60, 126);
+font: 8pt &quot;Palatino Linotype&quot;;</string>
+       </property>
+       <property name="text">
+        <string>1234</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_46">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>220</y>
+        <width>351</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 22pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>THANK YOU 🎉🎉</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>160</y>
+        <width>471</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 75 22pt &quot;Palatino Linotype&quot;;</string>
+      </property>
+      <property name="text">
+       <string>PLEASE DO COME AGAIN</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="GET_INVOICE">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>340</y>
+        <width>271</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(47, 60, 126);
+color: rgb(251, 234, 235);
+font: 10pt &quot;Palatino Linotype&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>CLICK HERE TO GET INVOICE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BACK_4">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>30</y>
+        <width>81</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(47, 60, 126);
+font: 75 10pt &quot;Palatino Linotype&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>LOGOUT</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>65</y>
+      <width>1068</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(47, 60, 126);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>251</x>
+       <y>8</y>
+       <width>521</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(251, 234, 235);
+background-color: rgb(47, 60, 126);
+border: NONE;
+font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+     </property>
+     <property name="text">
+      <string>PRODUCT MANAGEMENT SYSTEM</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
